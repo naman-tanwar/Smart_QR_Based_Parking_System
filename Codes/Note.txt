@@ -1,0 +1,11 @@
+################## Usage of Different Codes ########################
+
+Find_MAC_Address -> To find the MAC address of your ESP - NOW Reciever - Upload this to your ESP32 reciever which will also act as UART master
+
+Sender -> It is the Parking area sensor node. It sends the status of parking data to the Reciever ESP32.
+
+Reciever -> To recieve the data from the sensor (Parking area) Node. This also has the code for UART transmission code to the slave device.
+
+UART_SLAVE -> It recieves the current free parking data through UART and sends it to thingspeak
+
+####################################################################
